@@ -1,0 +1,1144 @@
+{
+  "terms": [
+    {
+      "start": "2021-04-12T18:00",
+      "finish": "2021-04-12T21:15",
+      "name": "Einf.",
+      "id": "3040100",
+      "rooms": ""
+    },
+    {
+      "start": "2021-04-13T17:00",
+      "finish": "2021-04-13T20:15",
+      "name": "IN",
+      "id": "3040101",
+      "rooms": ""
+    },
+    {
+      "start": "2021-04-14T17:00",
+      "finish": "2021-04-14T20:15",
+      "name": "Ma",
+      "id": "3040102",
+      "rooms": ""
+    },
+    {
+      "start": "2021-04-20T13:15",
+      "finish": "2021-04-20T16:30",
+      "name": "TD",
+      "id": "3040103",
+      "rooms": ""
+    },
+    {
+      "start": "2021-04-20T17:00",
+      "finish": "2021-04-20T20:15",
+      "name": "Ma",
+      "id": "3040104",
+      "rooms": ""
+    },
+    {
+      "start": "2021-04-26T17:00",
+      "finish": "2021-04-26T20:15",
+      "name": "Ma",
+      "id": "3040105",
+      "rooms": ""
+    },
+    {
+      "start": "2021-04-27T13:15",
+      "finish": "2021-04-27T16:30",
+      "name": "TD",
+      "id": "3040106",
+      "rooms": ""
+    },
+    {
+      "start": "2021-04-27T17:00",
+      "finish": "2021-04-27T20:15",
+      "name": "IN",
+      "id": "3040107",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-04T13:15",
+      "finish": "2021-05-04T16:30",
+      "name": "IN",
+      "id": "3040108",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-04T17:00",
+      "finish": "2021-05-04T20:15",
+      "name": "Ma",
+      "id": "3040109",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-11T13:15",
+      "finish": "2021-05-11T16:30",
+      "name": "TD",
+      "id": "3040110",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-11T17:00",
+      "finish": "2021-05-11T20:15",
+      "name": "Ma",
+      "id": "3040111",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-18T13:15",
+      "finish": "2021-05-18T16:30",
+      "name": "IN",
+      "id": "3040112",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-18T17:00",
+      "finish": "2021-05-18T20:15",
+      "name": "Ma",
+      "id": "3040113",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-25T13:15",
+      "finish": "2021-05-25T16:30",
+      "name": "TD",
+      "id": "3040114",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-25T17:00",
+      "finish": "2021-05-25T20:15",
+      "name": "IN",
+      "id": "3040115",
+      "rooms": ""
+    },
+    {
+      "start": "2021-05-26T17:00",
+      "finish": "2021-05-26T20:15",
+      "name": "PH",
+      "id": "3040131",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-01T13:15",
+      "finish": "2021-06-01T16:30",
+      "name": "IN",
+      "id": "3040116",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-01T17:00",
+      "finish": "2021-06-01T20:15",
+      "name": "Ma",
+      "id": "3040117",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-08T17:00",
+      "finish": "2021-06-08T20:15",
+      "name": "Ma",
+      "id": "3040119",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-14T17:00",
+      "finish": "2021-06-14T20:15",
+      "name": "PH",
+      "id": "3040121",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-15T13:15",
+      "finish": "2021-06-15T16:30",
+      "name": "IN",
+      "id": "3040120",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-15T17:00",
+      "finish": "2021-06-15T20:15",
+      "name": "Ma",
+      "id": "3040124",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-21T17:00",
+      "finish": "2021-06-21T20:15",
+      "name": "PH",
+      "id": "3040125",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-22T13:15",
+      "finish": "2021-06-22T16:30",
+      "name": "TD",
+      "id": "3040126",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-22T17:00",
+      "finish": "2021-06-22T20:15",
+      "name": "Ma",
+      "id": "3040127",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-28T17:00",
+      "finish": "2021-06-28T20:15",
+      "name": "PH",
+      "id": "3040128",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-29T13:15",
+      "finish": "2021-06-29T16:30",
+      "name": "IN",
+      "id": "3040129",
+      "rooms": ""
+    },
+    {
+      "start": "2021-06-29T17:00",
+      "finish": "2021-06-29T20:15",
+      "name": "Ma",
+      "id": "3040130",
+      "rooms": ""
+    },
+    {
+      "start": "2021-07-05T17:00",
+      "finish": "2021-07-05T20:15",
+      "name": "PH",
+      "id": "3040132",
+      "rooms": ""
+    },
+    {
+      "start": "2021-07-06T13:15",
+      "finish": "2021-07-06T16:30",
+      "name": "IN",
+      "id": "3040133",
+      "rooms": ""
+    },
+    {
+      "start": "2021-07-06T17:00",
+      "finish": "2021-07-06T20:15",
+      "name": "Ma",
+      "id": "3040134",
+      "rooms": ""
+    },
+    {
+      "start": "2021-07-07T17:00",
+      "finish": "2021-07-07T20:15",
+      "name": "TD",
+      "id": "3040118",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-09T17:00",
+      "finish": "2021-08-09T20:15",
+      "name": "PH",
+      "id": "3040135",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-10T13:15",
+      "finish": "2021-08-10T16:30",
+      "name": "IN",
+      "id": "3040150",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-10T17:00",
+      "finish": "2021-08-10T20:15",
+      "name": "Ma",
+      "id": "3040137",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-16T17:00",
+      "finish": "2021-08-16T20:15",
+      "name": "PH",
+      "id": "3040138",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-17T13:15",
+      "finish": "2021-08-17T16:30",
+      "name": "IN",
+      "id": "3040139",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-17T17:00",
+      "finish": "2021-08-17T20:15",
+      "name": "Ma",
+      "id": "3040140",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-23T17:00",
+      "finish": "2021-08-23T20:15",
+      "name": "PH",
+      "id": "3040141",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-24T17:00",
+      "finish": "2021-08-24T20:15",
+      "name": "Ma",
+      "id": "3040143",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-25T17:00",
+      "finish": "2021-08-25T20:15",
+      "name": "PH",
+      "id": "3040144",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-31T13:15",
+      "finish": "2021-08-31T16:30",
+      "name": "TD",
+      "id": "3040145",
+      "rooms": ""
+    },
+    {
+      "start": "2021-08-31T17:00",
+      "finish": "2021-08-31T20:15",
+      "name": "Ma",
+      "id": "3040146",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-07T13:15",
+      "finish": "2021-09-07T16:30",
+      "name": "IN",
+      "id": "3040147",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-07T17:00",
+      "finish": "2021-09-07T20:15",
+      "name": "Ma",
+      "id": "3040148",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-13T17:00",
+      "finish": "2021-09-13T20:15",
+      "name": "PH",
+      "id": "3040149",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-14T13:15",
+      "finish": "2021-09-14T16:30",
+      "name": "TD",
+      "id": "3040136",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-14T17:00",
+      "finish": "2021-09-14T20:15",
+      "name": "Ma",
+      "id": "3040151",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-23T08:30",
+      "finish": "2021-09-23T09:30",
+      "name": "TD",
+      "id": "3206403",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-23T10:30",
+      "finish": "2021-09-23T12:00",
+      "name": "Ma",
+      "id": "3206404",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-24T13:30",
+      "finish": "2021-09-24T15:00",
+      "name": "IN",
+      "id": "3206405",
+      "rooms": ""
+    },
+    {
+      "start": "2021-09-24T16:00",
+      "finish": "2021-09-24T17:30",
+      "name": "PH",
+      "id": "3206406",
+      "rooms": ""
+    }
+  ],
+  "yearPlanTerms": [
+    {
+      "start": "2018-10-31T17:00",
+      "finish": "2018-10-31T21:30",
+      "name": "Allerheiligen",
+      "id": "2426212"
+    },
+    {
+      "start": "2018-11-01T00:00",
+      "finish": "2018-11-02T00:00",
+      "name": "Allerheiligen",
+      "id": "2426213"
+    },
+    {
+      "start": "2018-12-23T00:00",
+      "finish": "2019-01-06T00:00",
+      "name": "Weihnachten",
+      "id": "2426222"
+    },
+    {
+      "start": "2019-03-24T00:00",
+      "finish": "2019-04-14T23:59",
+      "name": "Frühlingsferien",
+      "id": "2499991"
+    },
+    {
+      "start": "2019-04-18T17:00",
+      "finish": "2019-04-18T23:59",
+      "name": "Ostern, Vorabend",
+      "id": "2499984"
+    },
+    {
+      "start": "2019-04-19T00:00",
+      "finish": "2019-04-22T23:59",
+      "name": "Ostern",
+      "id": "2499977"
+    },
+    {
+      "start": "2019-05-01T17:00",
+      "finish": "2019-05-01T23:59",
+      "name": "1. Mai, Abend",
+      "id": "2499985"
+    },
+    {
+      "start": "2019-05-30T00:00",
+      "finish": "2019-06-02T23:59",
+      "name": "Auffahrt",
+      "id": "2499987"
+    },
+    {
+      "start": "2019-06-08T00:00",
+      "finish": "2019-06-10T23:59",
+      "name": "Pfingsten",
+      "id": "2499988"
+    },
+    {
+      "start": "2019-07-08T00:00",
+      "finish": "2019-08-04T23:59",
+      "name": "Sommerferien",
+      "id": "2499989"
+    },
+    {
+      "start": "2019-09-29T00:00",
+      "finish": "2019-10-20T23:59",
+      "name": "Herbstferien",
+      "id": "2499990"
+    },
+    {
+      "start": "2019-11-01T00:00",
+      "finish": "2019-11-01T23:59",
+      "name": "Feiertag",
+      "id": "2499996"
+    },
+    {
+      "start": "2019-12-22T00:00",
+      "finish": "2020-01-05T23:59",
+      "name": "Weihnachtsferien",
+      "id": "2499998"
+    },
+    {
+      "start": "2020-03-22T00:00",
+      "finish": "2020-04-12T23:59",
+      "name": "Frühjahrsferien",
+      "id": "2704057"
+    },
+    {
+      "start": "2020-04-09T17:00",
+      "finish": "2020-04-09T23:59",
+      "name": "Ostern, Vorabend",
+      "id": "2674384"
+    },
+    {
+      "start": "2020-04-10T00:00",
+      "finish": "2020-04-13T23:59",
+      "name": "Ostern",
+      "id": "2674385"
+    },
+    {
+      "start": "2020-05-01T17:00",
+      "finish": "2020-05-01T23:59",
+      "name": "1. Mai",
+      "id": "2674387"
+    },
+    {
+      "start": "2020-05-20T17:00",
+      "finish": "2020-05-20T23:59",
+      "name": "Auffahrt, Vorabend",
+      "id": "2674388"
+    },
+    {
+      "start": "2020-05-21T00:00",
+      "finish": "2020-05-24T23:59",
+      "name": "Auffahrt",
+      "id": "2674389"
+    },
+    {
+      "start": "2020-05-30T00:00",
+      "finish": "2020-06-01T23:59",
+      "name": "Pfingsten",
+      "id": "2674395"
+    },
+    {
+      "start": "2020-07-05T00:00",
+      "finish": "2020-07-12T23:59",
+      "name": "Sommerferien",
+      "id": "2704059"
+    },
+    {
+      "start": "2020-07-12T00:00",
+      "finish": "2020-07-26T23:59",
+      "name": "Betriebsferien",
+      "id": "2699803"
+    },
+    {
+      "start": "2020-07-26T00:00",
+      "finish": "2020-08-02T23:59",
+      "name": "Sommerferien",
+      "id": "2840183"
+    },
+    {
+      "start": "2020-08-01T00:00",
+      "finish": "2020-08-01T23:59",
+      "name": "1. August",
+      "id": "2699805"
+    },
+    {
+      "start": "2020-09-27T00:00",
+      "finish": "2020-10-18T23:59",
+      "name": "Herbstferien",
+      "id": "2704061"
+    },
+    {
+      "start": "2020-10-31T17:00",
+      "finish": "2020-10-31T23:59",
+      "name": "1. November, Vorabend",
+      "id": "2674400"
+    },
+    {
+      "start": "2020-11-01T00:00",
+      "finish": "2020-11-01T23:59",
+      "name": "Feiertag",
+      "id": "2674399"
+    },
+    {
+      "start": "2020-12-20T00:00",
+      "finish": "2021-01-03T23:59",
+      "name": "Weihnachtsferien",
+      "id": "2699804"
+    },
+    {
+      "start": "2021-03-21T00:00",
+      "finish": "2021-04-11T23:59",
+      "name": "Frühjahrsferien",
+      "id": "2704063"
+    },
+    {
+      "start": "2021-04-01T17:00",
+      "finish": "2021-04-01T23:59",
+      "name": "Ostern, Vorabend",
+      "id": "2699795"
+    },
+    {
+      "start": "2021-04-02T00:00",
+      "finish": "2021-04-05T23:59",
+      "name": "Ostern",
+      "id": "2699796"
+    },
+    {
+      "start": "2021-05-01T17:00",
+      "finish": "2021-05-01T23:59",
+      "name": "1. Mai",
+      "id": "2699800"
+    },
+    {
+      "start": "2021-05-12T17:00",
+      "finish": "2021-05-12T23:59",
+      "name": "Auffahrt, Vorabend",
+      "id": "2699797"
+    },
+    {
+      "start": "2021-05-13T00:00",
+      "finish": "2021-05-16T23:59",
+      "name": "Auffahrt",
+      "id": "2699798"
+    },
+    {
+      "start": "2021-05-22T00:00",
+      "finish": "2021-05-24T23:59",
+      "name": "Pfingsten",
+      "id": "2699799"
+    },
+    {
+      "start": "2021-07-11T00:00",
+      "finish": "2021-07-18T23:59",
+      "name": "Sommerferien",
+      "id": "2704066"
+    },
+    {
+      "start": "2021-07-18T00:00",
+      "finish": "2021-08-01T23:59",
+      "name": "Betriebsferien",
+      "id": "2704034"
+    },
+    {
+      "start": "2021-08-01T00:00",
+      "finish": "2021-08-08T23:59",
+      "name": "Sommerferien",
+      "id": "2840184"
+    },
+    {
+      "start": "2021-09-26T00:00",
+      "finish": "2021-10-17T23:59",
+      "name": "Herbstferien",
+      "id": "2704067"
+    },
+    {
+      "start": "2021-10-31T17:00",
+      "finish": "2021-10-31T23:59",
+      "name": "1. November, Vorabend",
+      "id": "2699801"
+    },
+    {
+      "start": "2021-11-01T00:00",
+      "finish": "2021-11-01T23:59",
+      "name": "1. November",
+      "id": "2699802"
+    },
+    {
+      "start": "2021-12-19T00:00",
+      "finish": "2022-01-02T23:59",
+      "name": "Weihnachtsferien",
+      "id": "2704026"
+    },
+    {
+      "start": "2022-03-20T00:00",
+      "finish": "2022-04-10T23:59",
+      "name": "Frühjahrsferien",
+      "id": "3157405"
+    },
+    {
+      "start": "2022-04-14T17:00",
+      "finish": "2022-04-14T23:59",
+      "name": "Ostern, Vorabend",
+      "id": "3157347"
+    },
+    {
+      "start": "2022-04-15T00:00",
+      "finish": "2022-04-18T23:59",
+      "name": "Ostern",
+      "id": "3157348"
+    },
+    {
+      "start": "2022-05-01T17:00",
+      "finish": "2022-05-01T23:59",
+      "name": "1. Mai",
+      "id": "3157401"
+    },
+    {
+      "start": "2022-05-25T17:00",
+      "finish": "2022-05-25T23:59",
+      "name": "Auffahrt, Vorabend",
+      "id": "3157399"
+    },
+    {
+      "start": "2022-05-26T00:00",
+      "finish": "2022-05-29T23:59",
+      "name": "Auffahrt",
+      "id": "3157400"
+    },
+    {
+      "start": "2022-06-04T00:00",
+      "finish": "2022-06-06T23:59",
+      "name": "Pfingsten",
+      "id": "3157402"
+    },
+    {
+      "start": "2022-07-10T00:00",
+      "finish": "2022-07-16T23:59",
+      "name": "Sommerferien",
+      "id": "3157409"
+    },
+    {
+      "start": "2022-07-17T00:00",
+      "finish": "2022-07-30T23:59",
+      "name": "Betriebsferien",
+      "id": "3157437"
+    },
+    {
+      "start": "2022-07-31T00:00",
+      "finish": "2022-08-14T23:59",
+      "name": "Sommerferien",
+      "id": "3157410"
+    },
+    {
+      "start": "2022-10-02T00:00",
+      "finish": "2022-10-23T23:59",
+      "name": "Herbstferien",
+      "id": "3157418"
+    },
+    {
+      "start": "2022-10-31T17:00",
+      "finish": "2022-10-31T23:59",
+      "name": "1. November, Vorabend",
+      "id": "3157403"
+    },
+    {
+      "start": "2022-11-01T00:00",
+      "finish": "2022-11-01T23:59",
+      "name": "1. November",
+      "id": "3428362"
+    },
+    {
+      "start": "2022-12-24T00:00",
+      "finish": "2023-01-08T23:59",
+      "name": "Weihnachtsferien",
+      "id": "3157419"
+    },
+    {
+      "start": "2023-03-26T00:00",
+      "finish": "2023-04-16T23:59",
+      "name": "Frühjahrsferien",
+      "id": "3344384"
+    },
+    {
+      "start": "2023-04-06T17:00",
+      "finish": "2023-04-06T23:59",
+      "name": "Ostern, Vorabend",
+      "id": "3344352"
+    },
+    {
+      "start": "2023-04-07T00:00",
+      "finish": "2023-04-10T23:59",
+      "name": "Ostern",
+      "id": "3344355"
+    },
+    {
+      "start": "2023-05-01T17:00",
+      "finish": "2023-05-01T23:59",
+      "name": "1. Mai",
+      "id": "3344379"
+    },
+    {
+      "start": "2023-05-17T17:00",
+      "finish": "2023-05-17T23:59",
+      "name": "Auffahrt, Vorabend",
+      "id": "3344356"
+    },
+    {
+      "start": "2023-05-18T00:00",
+      "finish": "2023-05-21T23:59",
+      "name": "Auffahrt",
+      "id": "3344357"
+    },
+    {
+      "start": "2023-05-27T00:00",
+      "finish": "2023-05-29T23:59",
+      "name": "Pfingsten",
+      "id": "3344378"
+    },
+    {
+      "start": "2023-07-09T00:00",
+      "finish": "2023-07-15T23:59",
+      "name": "Sommerferien",
+      "id": "3344385"
+    },
+    {
+      "start": "2023-07-16T00:00",
+      "finish": "2023-08-01T23:59",
+      "name": "Betriebsferien",
+      "id": "3344382"
+    },
+    {
+      "start": "2023-08-02T00:00",
+      "finish": "2023-08-06T23:59",
+      "name": "Sommerferien",
+      "id": "3344387"
+    },
+    {
+      "start": "2023-10-01T00:00",
+      "finish": "2023-10-22T23:59",
+      "name": "Herbstferien",
+      "id": "3344388"
+    },
+    {
+      "start": "2023-10-31T17:00",
+      "finish": "2023-10-31T23:59",
+      "name": "1. November, Vorabend",
+      "id": "3344380"
+    },
+    {
+      "start": "2023-11-01T00:00",
+      "finish": "2023-11-01T23:59",
+      "name": "1. November",
+      "id": "3344381"
+    },
+    {
+      "start": "2023-12-24T00:00",
+      "finish": "2024-01-07T23:59",
+      "name": "Weihnachtsferien",
+      "id": "3344383"
+    },
+    {
+      "start": "2024-03-25T00:00",
+      "finish": "2024-04-14T23:59",
+      "name": "Frühjahrsferien",
+      "id": "3647354"
+    },
+    {
+      "start": "2024-03-28T17:00",
+      "finish": "2024-03-28T23:59",
+      "name": "Ostern, Vorabend",
+      "id": "3647330"
+    },
+    {
+      "start": "2024-03-29T00:00",
+      "finish": "2024-04-01T23:59",
+      "name": "Ostern",
+      "id": "3647331"
+    },
+    {
+      "start": "2024-05-01T17:00",
+      "finish": "2024-05-01T23:59",
+      "name": "1. Mai",
+      "id": "3647343"
+    },
+    {
+      "start": "2024-05-08T17:00",
+      "finish": "2024-05-08T23:59",
+      "name": "Auffahrt, Vorabend",
+      "id": "3647332"
+    },
+    {
+      "start": "2024-05-09T00:00",
+      "finish": "2024-05-12T23:59",
+      "name": "Auffahrt",
+      "id": "3647337"
+    },
+    {
+      "start": "2024-05-18T00:00",
+      "finish": "2024-05-20T23:59",
+      "name": "Pfingsten",
+      "id": "3647338"
+    },
+    {
+      "start": "2024-07-08T00:00",
+      "finish": "2024-07-14T23:59",
+      "name": "Sommerferien",
+      "id": "3647357"
+    },
+    {
+      "start": "2024-07-15T00:00",
+      "finish": "2024-07-28T23:59",
+      "name": "Betriebsferien",
+      "id": "3647346"
+    },
+    {
+      "start": "2024-07-29T00:00",
+      "finish": "2024-08-04T23:59",
+      "name": "Sommerferien",
+      "id": "3647370"
+    },
+    {
+      "start": "2024-08-01T00:00",
+      "finish": "2024-08-01T23:59",
+      "name": "1. August",
+      "id": "3647347"
+    },
+    {
+      "start": "2024-09-30T00:00",
+      "finish": "2024-10-20T23:59",
+      "name": "Herbstferien",
+      "id": "3647371"
+    },
+    {
+      "start": "2024-10-31T17:00",
+      "finish": "2024-10-31T23:59",
+      "name": "1. November, Vorabend",
+      "id": "3647344"
+    },
+    {
+      "start": "2024-11-01T00:00",
+      "finish": "2024-11-01T23:59",
+      "name": "1. November",
+      "id": "3647345"
+    },
+    {
+      "start": "2024-12-23T00:00",
+      "finish": "2025-01-05T23:59",
+      "name": "Weihnachtsferien",
+      "id": "3647348"
+    },
+    {
+      "start": "2025-03-23T00:00",
+      "finish": "2025-04-13T23:59",
+      "name": "Frühjahrsferien",
+      "id": "3887222"
+    },
+    {
+      "start": "2025-04-17T17:00",
+      "finish": "2025-04-17T23:59",
+      "name": "Ostern, Vorabend",
+      "id": "3887178"
+    },
+    {
+      "start": "2025-04-18T00:00",
+      "finish": "2025-04-21T23:59",
+      "name": "Ostern",
+      "id": "3887179"
+    },
+    {
+      "start": "2025-05-01T17:00",
+      "finish": "2025-05-01T23:59",
+      "name": "1. Mai",
+      "id": "3887189"
+    },
+    {
+      "start": "2025-05-28T17:00",
+      "finish": "2025-05-28T23:59",
+      "name": "Auffahrt, Vorabend",
+      "id": "3887183"
+    },
+    {
+      "start": "2025-05-29T00:00",
+      "finish": "2025-06-01T23:59",
+      "name": "Auffahrt",
+      "id": "3887184"
+    },
+    {
+      "start": "2025-06-07T00:00",
+      "finish": "2025-06-09T23:59",
+      "name": "Pfingsten",
+      "id": "3887185"
+    },
+    {
+      "start": "2025-07-06T00:00",
+      "finish": "2025-07-12T23:59",
+      "name": "Sommerferien",
+      "id": "3887223"
+    },
+    {
+      "start": "2025-07-13T00:00",
+      "finish": "2025-07-27T23:59",
+      "name": "Betriebsferien",
+      "id": "3887192"
+    },
+    {
+      "start": "2025-07-28T00:00",
+      "finish": "2025-08-03T23:59",
+      "name": "Sommerferien",
+      "id": "3887226"
+    },
+    {
+      "start": "2025-08-01T00:00",
+      "finish": "2025-08-01T23:59",
+      "name": "1. August",
+      "id": "3887193"
+    },
+    {
+      "start": "2025-09-28T00:00",
+      "finish": "2025-10-19T23:59",
+      "name": "Herbstferien",
+      "id": "3887268"
+    },
+    {
+      "start": "2025-10-31T17:00",
+      "finish": "2025-10-31T23:59",
+      "name": "1. November, Vorabend",
+      "id": "3887190"
+    },
+    {
+      "start": "2025-11-01T00:00",
+      "finish": "2025-11-01T23:59",
+      "name": "1. November",
+      "id": "3887191"
+    },
+    {
+      "start": "2025-12-21T00:00",
+      "finish": "2026-01-04T23:59",
+      "name": "Weihnachtsferien",
+      "id": "3887197"
+    }
+  ],
+  "course": {
+    "_prepared": false,
+    "childItemLinkType": null,
+    "object": {
+      "objectID": 3020989,
+      "objectGuid": "7925B730-3A4D-46B5-B0A4-18D270772506",
+      "objectTypeID": "_CRSTIMEPERIOD",
+      "name": "HF ET 21F-24F 1. Sem",
+      "remarks": "",
+      "validFrom": null,
+      "validTo": null,
+      "statusID": "ACTIVE",
+      "orderType": "NAME",
+      "orderNr": null,
+      "numbering": "CASCADE",
+      "aclInherit": 1,
+      "importID": "39380",
+      "ownerPersonID": null,
+      "specialType": null,
+      "code": "",
+      "shortName": "HF ET 21F-24F 1. Sem",
+      "customNumber": null,
+      "createdAt": "2020-11-06T08:30:00.000Z",
+      "createdByPersonObjectID": null,
+      "lastChangedAt": "2021-05-08T05:10:00.000Z",
+      "lastChangedByPersonObjectID": null,
+      "tenantID": 1,
+      "objectType": {
+        "objectType": "_CRSTIMEPERIOD",
+        "name": "Semester",
+        "namePlural": "Semester",
+        "sysType": "COURSE",
+        "iconIndex": 70,
+        "isMainType": 0,
+        "treeHide": 0,
+        "listHide": null,
+        "isDefaultNew": false,
+        "isUserCreateable": true,
+        "isInactive": false,
+        "isCreatableAtDefaultLists": false,
+        "defaultParentObjectID": 30781,
+        "forceDefaultParentObjectID": false,
+        "myMemberShipHide": 0,
+        "myMemberShipLabel": "Meine Semester",
+        "objectTypeHide": 0,
+        "tenantSet": true,
+        "tenantChange": true,
+        "tenantNotGlobalRequired": false
+      }
+    },
+    "objectID": 3020989,
+    "courseID": 69687,
+    "name": "HF ET 21F-24F 1. Sem",
+    "number": "15777",
+    "bbtCode": 212,
+    "nameOnScreens": "1. ET 21F-24F",
+    "acronym": null,
+    "start": "2021-04-11T22:00:00.000Z",
+    "finish": "2021-09-24T22:00:00.000Z",
+    "languageCode": null,
+    "registrationFrom": null,
+    "registrationTo": null,
+    "displayOnlineFrom": null,
+    "displayOnlineTo": null,
+    "minimumParticipantCount": 12,
+    "maximumParticipantCount": 22,
+    "maximumWaitingListCount": null,
+    "timePeriodCount": null,
+    "timePeriodName": "Semester",
+    "lessonCount": 245,
+    "displayOnlineEnabled": false,
+    "financialAccountID": 2,
+    "bankAccountID": 1,
+    "timePeriod": 1,
+    "autoDisposePerson": 1,
+    "educationPlanObjectID": 3020990,
+    "lessonPlanObjectID": null,
+    "site": {
+      "_prepared": false,
+      "childItemLinkType": null,
+      "object": {
+        "objectType": {}
+      },
+      "objectID": 32034,
+      "siteID": 168,
+      "name": "ZbW St. Gallen / Gaiserwaldstrasse",
+      "externLocation": 0
+    },
+    "yearPlans": [
+      {
+        "_prepared": false,
+        "childItemLinkType": null,
+        "object": {
+          "objectType": {}
+        },
+        "objectID": 2426178,
+        "yearPlanID": 1,
+        "name": "ZbW geschlossen",
+        "disposeWeekDays": 63
+      },
+      {
+        "_prepared": false,
+        "childItemLinkType": null,
+        "object": {
+          "objectType": {}
+        },
+        "objectID": 2704051,
+        "yearPlanID": 3,
+        "name": "ZbW Ferienkalender",
+        "disposeWeekDays": 63
+      }
+    ],
+    "courseFramework": {
+      "_prepared": false,
+      "childItemLinkType": null,
+      "object": {
+        "objectType": {}
+      },
+      "objectID": 39380,
+      "CourseFrameworkID": 3657,
+      "name": "HF ET 1. Sem",
+      "bbtCode": 212,
+      "minimumParticipantCount": 12,
+      "maximumParticipantCount": 22,
+      "maximumWaitingListCount": null,
+      "timeForApplicationsDays": null,
+      "timePeriodCount": null,
+      "timePeriodName": "Semester",
+      "timePeriod": 1,
+      "lessonCount": 245,
+      "acronym": null,
+      "financialAccountID": 2,
+      "bankAccountID": 1,
+      "nameOnScreens": "1. ET",
+      "courseTimeType": null,
+      "courseOfficialName": null,
+      "courseSBFIName": null,
+      "courseSBFISBAName": null,
+      "subjectID": null
+    },
+    "educationPlan": {
+      "objectID": 3020990,
+      "objectGuid": "AF82D785-C780-4104-9A36-CF2873325496",
+      "objectTypeID": "EDUPLANFOLD",
+      "name": "Bildungsplan",
+      "remarks": "",
+      "validFrom": null,
+      "validTo": null,
+      "statusID": "ACTIVE",
+      "orderType": "NAME",
+      "orderNr": null,
+      "numbering": "CASCADE",
+      "aclInherit": 1,
+      "importID": "30747",
+      "ownerPersonID": null,
+      "specialType": null,
+      "code": null,
+      "shortName": "Bildungsplan",
+      "customNumber": null,
+      "createdAt": "2020-11-06T08:30:00.000Z",
+      "createdByPersonObjectID": null,
+      "lastChangedAt": null,
+      "lastChangedByPersonObjectID": null,
+      "tenantID": 0
+    },
+    "lessonPlan": null
+  }
+}
