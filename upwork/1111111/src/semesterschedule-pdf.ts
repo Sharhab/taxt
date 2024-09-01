@@ -4,10 +4,47 @@ import { jsPDF } from "jspdf";
 import path from "path";
 import dayjs from "dayjs";
 
-// Your existing types here
+// Define your types here or import them from other files
+export type RenderData = {
+  startDate: string;
+  endDate: string;
+  terms: SemesterScheduleTerm[];
+  course: RenderCourse;
+  yearPlanTerms: SemesterScheduleYearPlanTerms[];
+};
 
-async function getTerms(terms: SemesterScheduleTerm[]) {
-  // Your existing code for getTerms
+export type Lesson = {
+  start: string;
+  finish: string;
+  whichWeek: number;
+  dayOfWeek: number;
+  name: string;
+  roomName: string;
+};
+
+export type RenderCourse = {
+  name: string;
+  courseNumber: string;
+  semester: string;
+  year: string;
+};
+
+export type SemesterScheduleYearPlanTerms = {
+  // Define properties based on your requirements
+};
+
+export type SemesterScheduleTerm = {
+  // Define properties based on your requirements
+};
+
+async function getTerms(terms: SemesterScheduleTerm[]): Promise<{ courses: Lesson[]; minHour: number; maxHour: number }> {
+  // Implement your existing code for getTerms
+  // Example placeholder
+  return {
+    courses: [],
+    minHour: 0,
+    maxHour: 0
+  };
 }
 
 export async function renderSemesterPlan(
@@ -62,7 +99,7 @@ function generateTimetable(
   const pageWidth = doc.internal.pageSize.width;
   const pageHeight = doc.internal.pageSize.height;
 
-  const timesPerday = maxHour - minHour;
+  const timesPerDay = maxHour - minHour;
   const numOfWeeks = Math.max(...lessons.map((lesson) => lesson.whichWeek)) + 1;
   const margin = 15;
   const cellWidth = (pageWidth - 2 * margin) / numOfWeeks;
@@ -71,9 +108,22 @@ function generateTimetable(
   const startY = 20; // Adjusted for better spacing at the top
   const daysOfWeek = ["Mo", "Di", "Mi", "Do", "Fr", "Sa"];
   const timeSlots = Array.from(
-    { length: timesPerday },
+    { length: timesPerDay },
     (_, i) => `${minHour + i}:00`
   );
+
+  // Calculate the date range
+  const start = new Date(startDate);
+  const end = new Date(endDate);
+
+  // Normalize the start and end dates to cover full weeks
+  const normalizedStart = new Date(start);
+  normalizedStart.setDate(
+    normalizedStart.getDate() - (normalizedStart.getDay() === 0 ? 6 : normalizedStart.getDay() - 1)
+  );
+
+  const normalizedEnd = new Date(end);
+  normalizedEnd.setDate(normalizedEnd.getDate() + (normalizedEnd.getDay() === 0 ? 0 : 6 - normalizedEnd.getDay()));
 
   daysOfWeek.forEach((day, dayIndex) => {
     const dayY = startY + dayIndex * cellHeight;
@@ -98,16 +148,8 @@ function generateTimetable(
     doc.setFontSize(6);
     doc.setFont("Helvetica");
 
-    const start = new Date(startDate);
-    start.setDate(
-      start.getDate() - (start.getDay() === 0 ? 6 : start.getDay() - 1)
-    );
-
-    const end = new Date(endDate);
-    end.setDate(end.getDate() + (end.getDay() === 0 ? 0 : 6 - end.getDay()));
-
-    const dateArray = [];
-    for (let dt = new Date(start); dt <= end; dt.setDate(dt.getDate() + 1)) {
+    const dateArray: string[] = [];
+    for (let dt = new Date(normalizedStart); dt <= normalizedEnd; dt.setDate(dt.getDate() + 1)) {
       if (dt.getDay() !== 0) {
         const formattedDate = `${dt.getDate().toString().padStart(2, "0")}.${(
           dt.getMonth() + 1
@@ -117,6 +159,7 @@ function generateTimetable(
         dateArray.push(formattedDate);
       }
     }
+
     for (let week = 0; week <= numOfWeeks - 1; week++) {
       const dateIndex = dayIndex + week * 6;
       if (dateIndex < dateArray.length) {
@@ -130,12 +173,12 @@ function generateTimetable(
 
     doc.setDrawColor(150, 150, 150);
     (doc as any).setLineDash([1, 1], 0);
-    for (let x = 1; x < timesPerday; x++) {
+    for (let x = 1; x < timesPerDay; x++) {
       doc.line(
         startX,
-        dayY + (cellHeight / timesPerday) * x,
+        dayY + (cellHeight / timesPerDay) * x,
         startX + numOfWeeks * cellWidth,
-        dayY + (cellHeight / timesPerday) * x
+        dayY + (cellHeight / timesPerDay) * x
       );
     }
     (doc as any).setLineDash([]);
@@ -143,9 +186,9 @@ function generateTimetable(
 
     doc.setFontSize(6);
     doc.setFont("Helvetica");
-    let padding = cellHeight / (timesPerday + 10);
+    let padding = cellHeight / (timesPerDay + 10);
     timeSlots.forEach((timeSlot, index) => {
-      doc.text(timeSlot, 10, dayY + (cellHeight / timesPerday) * index + padding, {
+      doc.text(timeSlot, 10, dayY + (cellHeight / timesPerDay) * index + padding, {
         align: "right",
       });
     });
@@ -153,7 +196,7 @@ function generateTimetable(
       doc.text(
         timeSlot,
         startX + numOfWeeks * cellWidth + 2,
-        dayY + (cellHeight / timesPerday) * index + padding
+        dayY + (cellHeight / timesPerDay) * index + padding
       );
     });
   });
@@ -166,11 +209,11 @@ function generateTimetable(
     startY,
     cellWidth,
     cellHeight,
-    timesPerday,
+    timesPerDay,
     minHour,
     maxHour,
-    start,
-    end
+    normalizedStart,
+    normalizedEnd
   );
   drawLessons(
     doc,
@@ -179,7 +222,7 @@ function generateTimetable(
     startY,
     cellWidth,
     cellHeight,
-    timesPerday,
+    timesPerDay,
     minHour
   );
   drawFooter(doc, courseInfo, pageHeight);
@@ -192,7 +235,7 @@ function drawHolidays(
   startY: number,
   cellWidth: number,
   cellHeight: number,
-  timesPerday: number,
+  timesPerDay: number,
   minHour: number,
   maxHour: number,
   start: Date,
@@ -209,10 +252,10 @@ function drawLessons(
   startY: number,
   cellWidth: number,
   cellHeight: number,
-  timesPerday: number,
+  timesPerDay: number,
   minHour: number
 ) {
-  lessons.forEach((lesson: any) => {
+  lessons.forEach((lesson: Lesson) => {
     const startTime = new Date(lesson.start);
     const finishTime = new Date(lesson.finish);
     const x = startX + (lesson.whichWeek - 1) * cellWidth;
@@ -223,9 +266,9 @@ function drawLessons(
       startY +
       (lesson.dayOfWeek - 1) * cellHeight +
       (parseInt(String(lesson.start).split("T")[1].split(":")[0]) - minHour) *
-        (cellHeight / timesPerday);
+        (cellHeight / timesPerDay);
     
-    const height = (cellHeight / timesPerday) * durationHours;
+    const height = (cellHeight / timesPerDay) * durationHours;
 
     doc.setFillColor(255, 255, 100);
     doc.setDrawColor(0, 0, 0);
@@ -236,7 +279,6 @@ function drawLessons(
     }
 
     doc.text(lesson.name.substring(0, 3), x + 2, yStart + 2);
-    if (height > 5) doc.text(lesson.roomName, x + 2, yStart + 5);
     if (height > 5) doc.text(lesson.roomName, x + 2, yStart + 5);
     if (height > 9) {
       doc.setFontSize(4);
@@ -276,4 +318,3 @@ function parseDates(data: RenderData) {
   const endDate = dayjs(data.endDate).format("YYYY-MM-DD");
   return { startDate, endDate };
 }
-
