@@ -1,8 +1,7 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import cors from 'cors';
-import { renderSemesterPlan } from './semesterschedule-pdf';
 import path from 'path';
-import { RenderData } from './semesterschedule-pdf';
+import { renderSemesterPlan, RenderData } from './semesterschedule-pdf';
 
 const app = express();
 const port = 3000;
@@ -21,19 +20,12 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
 // POST route to generate and return a PDF
-app.post('/generate-pdf', async (req, res) => {
+app.post('/generate-pdf', async (req: Request, res: Response) => {
     try {
         const data: RenderData = req.body; // Ensure data matches RenderData type
 
-        // Generate the PDF (assuming renderSemesterPlan returns a buffer or stream)
-        const pdfBuffer = await renderSemesterPlan(data);
-
-        // Set headers for the response to handle the PDF correctly
-        res.setHeader('Content-Type', 'application/pdf');
-        res.setHeader('Content-Disposition', 'attachment; filename="semester_plan.pdf"');
-        
-        // Send the generated PDF buffer as the response
-        res.send(pdfBuffer);
+        // Call renderSemesterPlan with req, res, and data
+        await renderSemesterPlan(req, res, data);
     } catch (error) {
         console.error('Error generating PDF:', error);
         res.status(500).send('Error generating PDF');
