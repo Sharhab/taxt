@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
 import path from 'path';
-import { renderSemesterPlan, RenderData } from './semesterschedule-pdf';
+import { renderSemesterPlan, RenderData } from '../semesterschedule-pdf';
 
 const app = express();
 const port = 3000;
