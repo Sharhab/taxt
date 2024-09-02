@@ -132,11 +132,12 @@ export async function renderSemesterPlan(req: Request, res: Response, data: Rend
 	generateTimetable(doc, startDate, endDate, lessons, courseInfo, minHour, maxHour, yearPlanTerms);
 
 	const pdfBuffer = doc.output('arraybuffer');
-	const filePath = path.join(__dirname, 'semester-schedule.pdf');
+	const filePath = path.join(__dirname, 'semester-schedule1.pdf');
 	fs.writeFileSync(filePath, Buffer.from(pdfBuffer));
 
 	res.contentType('application/pdf');
 	res.sendFile(filePath);
+	fs.unlinkSync(filePath);
 }
 
 function generateTimetable(
