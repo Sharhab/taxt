@@ -27,8 +27,8 @@ app.post('/generate-pdf', async (req: Request, res: Response) => {
         // Call renderSemesterPlan with req, res, and data
         await renderSemesterPlan(req, res, data);
     } catch (error) {
-        console.error(`Error generating PDF ${error.message}`);
-        res.status(500).send(`Error generating PDF ${error.message}`);
+        console.error('Error generating PDF:, erroe');
+        res.status(500).send('Error generating PDF:, error');
     }
 });
 
